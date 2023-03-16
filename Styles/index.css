@@ -1,0 +1,164 @@
+/* Resetear los valores predeterminados del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Establecer una fuente predeterminada para todo el sitio */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Establecer el tamaño de fuente base */
+html {
+    font-size: 16px;
+}
+
+/* Establecer un color de fondo y color de texto predeterminado para todo el sitio */
+body {
+    background-color: #070721;
+    background-image: url('../Images/26309.png');
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 55px;
+}
+
+.nombre {
+    width: 288px;
+    height: 56px;
+    background-color: #11114A;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 26px;
+}
+
+.nombre input {
+    color: #fff;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 244px;
+    height: 56px;
+    background-color: #11114A;
+    border: none;
+}
+
+.nombre .image {
+    border: 1 solid red;
+    width: 44px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    width: 288px;
+    height: 56px;
+    background-color: #11114A;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 26px;
+}
+
+.email input {
+    color: #fff;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 244px;
+    height: 56px;
+    background-color: #11114A;
+    border: none;
+}
+
+.email .image {
+    border: 1 solid red;
+    width: 44px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contraseña {
+    width: 288px;
+    height: 56px;
+    background-color: #11114A;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 26px;
+}
+
+.contraseña input {
+    color: #fff;
+    padding-left: 15px;
+    font-size: 16px;
+    width: 244px;
+    height: 56px;
+    background-color: #11114A;
+    border: none;
+}
+
+.contraseña .image {
+    border: 1 solid red;
+    width: 44px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.inicio {
+    width: 288px;
+    background-color: #8BA127;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.registro {
+    width: 288px;
+    background-color: transparent;
+    color:#8BA127;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    border: 3px solid #8BA127;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.olvido {
+    width: 288px;
+    background-color: transparent;
+    color:#8BA127;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}

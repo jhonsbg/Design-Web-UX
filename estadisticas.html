@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/estadisticas.css">
+    <title>Ciclos De Sueño</title>
+</head>
+<body>
+    <div class="container-menu">
+        <div class="menu-titulo">
+            <h2>Menú</h2>
+        </div>
+        <div class="menu-estadisticas">
+            <h3>MIS ESTADÍSTICAS</h3>
+        </div>
+        <div class="menu-alarmas">
+            <button class="cerrar" onclick="redirigir()">MIS ALARMAS</button>
+        </div>
+        <div class="menu-app">
+            <button class="cerrar" onclick="redirigir()">IR A LA APP</button>
+        </div>
+        <div class="menu-cerrar">
+            <button class="cerrar" onclick="cerrar()">CERRAR SESIÓN</button>
+        </div>
+    </div>
+    <div class="container-estadisticas">
+        <h1>Mis estadísticas</h1>
+        <div>
+            <img src="./Images/Dark 🌑 - Card-ΩElements-🖼 Image (3 States).png" alt="estadisticas">
+        </div>
+    </div>
+
+    <script>
+        function cerrar() {
+          window.location.assign("index.html");
+        }
+      </script>
+</body>
+</html>
